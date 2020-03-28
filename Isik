@@ -1,0 +1,33 @@
+public class Isik {
+    private String nimi;
+    private String telefoninumber;
+
+    @Override
+    public String toString() {
+        return "Isik{" +
+                "nimi='" + nimi + '\'' +
+                ", telefoninumber='" + telefoninumber + '\'' +
+                '}';
+    }
+
+    public String getNimi() {
+        return nimi;
+    }
+
+    public void setNimi(String nimi) {
+        this.nimi = nimi;
+    }
+
+    public String getTelefoninumber() {
+        return telefoninumber;
+    }
+
+    public void setTelefoninumber(String telefoninumber) {
+        this.telefoninumber = telefoninumber;
+    }
+
+    public Isik(String nimi, String telefoninumber) {
+        this.nimi = nimi;
+        this.telefoninumber = telefoninumber;
+    }
+}
